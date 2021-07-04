@@ -1,0 +1,15 @@
+gcloud auth login
+gcloud beta interactive #abrir terminal interativo com auto complete
+gcloud projects create app-eng-learn --name="App Engine Learn"
+#enable billing in account
+gcloud init
+gcloud app create --region=us-central
+#Now create file app.yaml
+gcloud app deploy
+
+
+
+#Docs
+#https://cloud.google.com/appengine/docs/
+#https://cloud.google.com/appengine/docs/standard/python/config/appref
+#
